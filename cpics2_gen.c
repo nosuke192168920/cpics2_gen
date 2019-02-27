@@ -1,6 +1,6 @@
 /*
  * cpics2_gen
- * Copyright (c) 2019  sasugaanija@gmail.com
+ * Copyright (c) 2019 nosuke <sasugaanija@gmail.com>
  *
  * This software is released under the MIT License.
  * http://opensource.org/licenses/mit-license.php
