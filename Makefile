@@ -4,6 +4,7 @@ CPPFLAGS = -I.
 LDFLAGS =
 
 TARGET = cpics2_gen
+ZIP = cpics2_gen.zip
 
 OBJS = sha1.o cpics2_gen.o
 
@@ -17,3 +18,6 @@ cpics2_gen: $(OBJS)
 
 clean:
 	rm -f *.o *~ $(TARGET)
+
+archive:
+	cd .. && zip -r $(ZIP) cpics2_gen --exclude '*.git*'
